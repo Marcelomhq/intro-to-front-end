@@ -1,0 +1,70 @@
+body{
+  font-family: Quicksand;
+}  
+.destinos{    
+    color: white;
+    background-color: rgb(0, 183, 255);    
+    font-style: italic;
+    font-weight: normal;
+    width: 500px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 60px;
+  }
+
+.titulo-luxo{
+  display: inline-block;
+  font-style: italic;
+  margin: 0;
+  vertical-align: top;
+  font-weight: normal;
+  color: rgb(0, 195, 255);
+  padding-bottom: 20px;
+}
+
+.titulo-aluguel-iates{
+  display: inline-block;
+  font-style: italic;
+  margin: 0;
+  vertical-align: bottom;
+  font-weight: normal;
+  padding-top: 30px;
+  
+}
+
+li:not(:last-child)::after{
+  content: "|";
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu{
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  color: white;
+  width: 550px;
+}
+
+.header-container{
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  padding: 10px;
+  color: white; 
+}
+
+  

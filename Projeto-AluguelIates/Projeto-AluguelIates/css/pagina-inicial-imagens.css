@@ -1,0 +1,22 @@
+.barco-principal{
+  width: 1000px;
+  display: block;
+}
+.barco1{
+  width: 150px;
+  height: 75px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.destinos-imagem{
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color:rgb(0, 183, 255);
+  position: relative ;
+  top: 47.3px;
+  z-index: 2;
+  height: 43.2px;    
+}
+/* .logo-boat{
+  align-items: left;
+} */
