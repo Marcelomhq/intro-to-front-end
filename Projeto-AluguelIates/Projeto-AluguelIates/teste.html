@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>teste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/pagina-inicial-imagens.css">
+  <style>
+    body{
+      margin: 0;
+      font-family: Quicksand, Arial;
+    }
+    h1,h2{
+      margin: 0;
+    }
+    .whole-page-grid{
+      display: grid;
+      grid-template-columns: 40px 1070px 20px;
+    }
+    .top-bar-grid{
+      display: flex;
+      flex-direction: row;
+      /* grid-template-columns: 60px 200px 1fr; */
+      height: 90px;
+      background-color: rgb(65, 63, 63);
+    }
+    /* .logo-boat-div{
+      background-color: lightcoral;
+    }
+    .titulo-luxo-aluguel-iates{
+      background-color: lightblue;
+    }
+    .menu-div{
+      background-color: lightcoral;
+    } */
+    .titulo-luxo-div{
+      height: 41px;
+      display: flex;
+      align-items: flex-end;
+    }
+    .titulo-aluguel-iates-div{
+     
+    }
+    li:not(:last-child)::after{
+      content: "|";
+      color: white;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    li a{
+      text-decoration: none;
+      color: white;
+    }
+
+    .menu{
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      padding-top: 43px;
+      padding-left: 150px;
+    }
+    .titulo-luxo{
+      font-style: italic;
+      font-weight: normal;
+      font-size: 25px;
+      color: rgb(0, 195, 255);
+      
+    }
+    .titulo-aluguel-iates{
+      font-style: italic;
+      font-weight: normal;
+      font-size: 25px;
+      color: white;
+    }
+    .menu{
+      font-style: italic;
+    }
+    .pagina-inicial-color{
+      color: rgb(0, 195, 255);
+    }
+  </style>
+</head>
+<body>
+  <div class="whole-page-grid">
+    <div class="left-grey-column">
+
+    </div>
+    <div class="content">
+      <div class="top-bar-grid">
+        <div class="logo-boat-div">
+          <img class="logo-boat" src="imagens/barco1.png" alt="Logo Luxos">
+        </div>
+        <div class="titulo-luxo-aluguel-iates">
+          <div class="titulo-luxo-div">
+            <h1 class="titulo-luxo">Luxo</h1>
+          </div>
+          <div class="titulo-aluguel-iates-div">
+            <h2 class="titulo-aluguel-iates">Aluguel de Iates</h2>
+          </div>      
+        </div>
+        <div class="menu-div">
+          <ul class="menu">
+            <li class="pagina-inicial-color"><a class="pagina-inicial-color" href="pagina-inicial.html">Pagina Inicial</a></li>
+            <li><a href="aluguel-iates.html">Aluguel de Iates</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="aluguel-iates.html">Tripulação</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>    
+      </div>
+    </div>
+    <div class="right-grey-column">  
+    </div>
+  </div> 
+  <div class="bottom-bar">
+
+  </div>
+</body>
+</html>

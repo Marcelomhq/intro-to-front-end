@@ -17,6 +17,8 @@
   z-index: 2;
   height: 43.2px;    
 }
-/* .logo-boat{
-  align-items: left;
-} */
+.logo-boat{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

@@ -16,23 +16,20 @@ body{
   }
 
 .titulo-luxo{
-  display: inline-block;
   font-style: italic;
-  margin: 0;
-  vertical-align: top;
+  margin: 0;  
+  padding: 0;
   font-weight: normal;
   color: rgb(0, 195, 255);
   padding-bottom: 20px;
 }
 
 .titulo-aluguel-iates{
-  display: inline-block;
   font-style: italic;
   margin: 0;
   vertical-align: bottom;
   font-weight: normal;
-  padding-top: 30px;
-  
+  padding-top: 30px;  
 }
 
 li:not(:last-child)::after{
@@ -45,9 +42,7 @@ li a{
   text-decoration: none;
   color: white;
 }
-
 .menu{
-  display: inline-block;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -56,15 +51,24 @@ li a{
   color: white;
   width: 550px;
 }
-
-.header-container{
-  display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  align-items: center;
-  background-color: rgb(37, 37, 37);
-  padding: 10px;
-  color: white; 
+.top-bar{
+  display: grid;
+  grid-template-columns: 50px 100px 1fr;
+  /* background-color: rgb(37, 37, 37); */
+  background-color: grey;
+  height: 75px; 
+}
+.logo-boat-div{
+  height: 75px;
+}
+.titulo-aluguel-iates{
+  width: 150px;
+  height: 75px;
+}
+.titulo-luxo-aluguel-iates{
+  height: 75px;
+  width: 150px;
+  background-color: pink;
 }
 
   
