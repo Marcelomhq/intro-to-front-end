@@ -1,0 +1,48 @@
+.whole-page{
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
+    grid-template-rows: 1fr 60px;  */
+    min-height: 100vh;     
+  }
+  .grid-columns{
+    display: grid;
+    grid-template-columns: 50px 1fr 40px;
+    flex: 1;
+   
+  }
+  .left-column{
+    background-color: lightgray;
+    width: 50px;
+  }
+  .middle-column{
+    display: grid;
+    grid-template-rows: 80px 1fr 400px;
+  }
+  .right-columns{
+    background-color: lightgray;
+    width: 40px;
+  }
+  .bottom-bar{
+    background-color: rgb(184, 184, 184);
+    height: 60px
+  }
+  .top-bar{
+    display: flex;
+    align-items: center;    
+    background-color: #21272B;
+    height: 80px;
+    min-height: 60px;
+    width: 100%;
+    position: relative;
+  }
+  .middle-top-bar{
+    display: flex;
+    flex: 1;
+    background-color: aqua;
+    position: relative;
+  }
+  .double-boat-div{
+    background-color: greenyellow;
+  }
+  

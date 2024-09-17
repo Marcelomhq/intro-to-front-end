@@ -12,35 +12,38 @@
     body{
       margin: 0;
       font-family: Quicksand, Arial;
+
     }
     h1,h2{
       margin: 0;
     }
     .whole-page-grid{
       display: grid;
-      grid-template-columns: 40px 1070px 20px;
+      /* flex-direction: column; */
+      grid-template-columns: 40px 1fr 20px;
+      /* flex: 40px 1fr 20px; */
+    }
+    .left-grey-column{
+      width: 40px;
+      background-color: gray;
     }
     .top-bar-grid{
       display: flex;
       flex-direction: row;
-      /* grid-template-columns: 60px 200px 1fr; */
+      flex: 1;
       height: 90px;
-      background-color: rgb(65, 63, 63);
+      background-color: #21272B;
     }
-    /* .logo-boat-div{
-      background-color: lightcoral;
+    .right-grey-column{
+      width: 20px;
     }
-    .titulo-luxo-aluguel-iates{
-      background-color: lightblue;
-    }
-    .menu-div{
-      background-color: lightcoral;
-    } */
+    
     .titulo-luxo-div{
       height: 41px;
       display: flex;
       align-items: flex-end;
     }
+    
     .titulo-aluguel-iates-div{
      
     }
@@ -50,6 +53,7 @@
       margin-left: 20px;
       margin-right: 20px;
     }
+
     li a{
       text-decoration: none;
       color: white;
@@ -63,25 +67,29 @@
       padding-top: 43px;
       padding-left: 150px;
     }
+
     .titulo-luxo{
       font-style: italic;
       font-weight: normal;
       font-size: 25px;
-      color: rgb(0, 195, 255);
-      
+      color: #1BB4E8;      
     }
+
     .titulo-aluguel-iates{
       font-style: italic;
       font-weight: normal;
       font-size: 25px;
       color: white;
     }
+
     .menu{
       font-style: italic;
     }
+
     .pagina-inicial-color{
-      color: rgb(0, 195, 255);
+      color: #1BB4E8;
     }
+
   </style>
 </head>
 <body>

@@ -1,0 +1,35 @@
+.barco-principal-img{
+    width: 100%;
+}
+.barco-box{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #1A3243;
+    height: 40%;
+    width: 45%;
+    opacity: 0.8;
+    
+  }
+.barco-box-top{
+    display: flex;
+    align-items: center;  
+   
+}
+.barco-box-top-text{
+    font-size: 52px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    
+}
+.barco-box-bottom{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.barco-box-bottom-img{
+    margin-right: 0px;
+}

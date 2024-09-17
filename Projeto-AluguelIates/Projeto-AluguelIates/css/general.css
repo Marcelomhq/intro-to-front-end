@@ -1,0 +1,16 @@
+li:not(:last-child)::after{
+  content: "|";
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+body{
+  margin: 0;       
+}    
+p{
+  font-family: Quicksand, Arial;  
+}
