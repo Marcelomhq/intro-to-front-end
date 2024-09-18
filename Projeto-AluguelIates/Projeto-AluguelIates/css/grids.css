@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: 50px 1fr 40px;
     flex: 1;
-   
+    margin-bottom: 120px;
   }
   .left-column{
     background-color: lightgray;
@@ -24,6 +24,10 @@
     width: 40px;
   }
   .bottom-bar{
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; */
     background-color: rgb(184, 184, 184);
     height: 60px
   }
@@ -42,7 +46,5 @@
     background-color: aqua;
     position: relative;
   }
-  .double-boat-div{
-    background-color: greenyellow;
-  }
+
   
