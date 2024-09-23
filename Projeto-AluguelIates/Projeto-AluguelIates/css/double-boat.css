@@ -1,12 +1,14 @@
 .double-boat-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    gap: 10px;
+    row-gap: 15px;
+    gap: 15px;
 }
 .left-boat-div{
-    display: flex;
-    flex-direction: column;   
+    display: grid;
+    /* flex-direction: column;    */
+    
+    grid-template-rows: 40px 30px 80px 215px;
 }
 .left-boat-div,.right-boat-div{
     margin: 15px 15px 0px 15px;
@@ -20,18 +22,32 @@
 }
 .left-boat-top-bar-img-div{
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: red;   */
 }
 .left-boat-top-bar-text{
     color: white;
 }
+.left-boat-texto-1-div,
+.left-boat-texto-2-div{
+    display: flex;
+    
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: red; 
+    margin: 0; */
+}
 .left-boat-texto-1{
-    font-size: 2vw;
+    font-size: 16px;
+    margin: 0;
     margin: 12px 0px 10px 0px;
 }
 .left-boat-texto-2{
-    font-size: 1.6vw;
-    margin: 0px 0px 15px 0px;
+    font-size: 12px;
+    margin: 0;
+    margin: 12px 0px 10px 0px;
 }
 .left-boat-img-div{
     display: flex;
@@ -45,12 +61,11 @@
 }
 
 .right-boat-div{
-    display: flex;
-    flex-direction: column;   
+    display: grid;
+    /* flex-direction: column;    */    
+    grid-template-rows: 40px 30px 80px 215px;
 }
-.right-boat-div,.right-boat-div{
-    margin: 15px 15px 0px 15px;
-}
+
 .right-boat-top-bar{
     display: flex;
     flex-direction: row;
@@ -65,24 +80,37 @@
 .right-boat-top-bar-text{
     color: white;
 }
+.right-boat-texto-1-div,
+.right-boat-texto-2-div{
+    display: flex;
+    
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: red; 
+    margin: 0; */
+}
 .right-boat-texto-1{
-    font-size: 2vw;
-    margin: 10px 0px 8px 0px;
+    font-size: 16px;
+    margin: 0;
+    margin: 12px 0px 10px 0px;
 }
 .right-boat-texto-2{
-    font-size: 1.7vw;
-    margin: 0px 0px 15px 0px;
+    font-size: 12px;
+    margin: 0;
+    margin: 12px 0px 10px 0px;
 }
 .right-boat-img-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
+    width: 423.83;
+    column-gap: 10px;
     row-gap: 10px;
-
     margin: 0px 20px 0px 20px; 
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
 }
 .right-boat-img{
-    display: flex;
-    flex: 1;
-
+    width: 100%;
+   
 }
