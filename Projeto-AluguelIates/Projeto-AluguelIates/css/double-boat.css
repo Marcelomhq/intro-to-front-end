@@ -55,9 +55,10 @@
    
 }
 .left-boat-img{
-    display: flex;
+    /* display: flex;
     width: 400px;
-    align-items: center;
+    align-items: center; */
+    width: 100%;
 }
 
 .right-boat-div{
@@ -102,15 +103,22 @@
 .right-boat-img-div{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 423.83;
-    column-gap: 10px;
-    row-gap: 10px;
+    /* width: 500px; */
+    gap: 10px;
     margin: 0px 20px 0px 20px; 
     border-width: 1px;
     border-color: red;
     border-style: solid;
 }
+.right-boat-img-1-div,
+.right-boat-img-2-div,
+.right-boat-img-3-div,
+.right-boat-img-4-div{
+    
+
+}
 .right-boat-img{
-    width: 100%;
-   
+    width: 100%;    
+    height: auto;
+    object-fit: scale-down;   
 }
