@@ -6,3 +6,5 @@ Cor do texto azul do menu: #1BB4E8
 Cor do texto branco do menu: #FFFFFF
 
 Cor do texto Marron do quadro sobre a imagem: #C6B07F
+
+comentei aqui
