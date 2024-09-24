@@ -9,17 +9,18 @@
     display: grid;
     grid-template-columns: 50px 1fr 40px;
     margin-bottom: 120px;
-    height: 920px;
+    /* height: 1000px; */
   }
   .left-column{
     background-color: lightgray;
+
     width: 50px;
   }
   .middle-column{
     display: grid;
     grid-template-rows: 80px 1fr 400px;
   }
-  .right-columns{
+  .right-column{
     background-color: lightgray;
     width: 40px;
   }

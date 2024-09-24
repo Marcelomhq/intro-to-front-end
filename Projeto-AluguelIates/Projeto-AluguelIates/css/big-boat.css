@@ -22,12 +22,10 @@
    
 }
 .barco-box-top-text{
-    font-size: 25px;
-    padding-top: 10px;
-    padding-left: 10px;   
-    width: 450px; 
-    color: white; 
-    margin: 0;
+    font-size: 28px;
+    color: white;    
+
+    margin: 20px 0px 0px 5px ;
 }
 .barco-box-bottom{
     display: flex;
