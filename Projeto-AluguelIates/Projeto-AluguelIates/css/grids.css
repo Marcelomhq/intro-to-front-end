@@ -9,7 +9,6 @@
     display: grid;
     grid-template-columns: 50px 1fr 40px;
     margin-bottom: 120px;
-    /* height: 1000px; */
   }
   .left-column{
     background-color: lightgray;
@@ -47,6 +46,28 @@
     flex: 1;
     background-color: aqua;
     position: relative;
+  }
+  .gambiarra-1{
+    position: absolute;    
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: lightgray;
+    z-index: 2;
+
+    height: 1222px;
+  }
+  .gambiarra-2{
+    position: absolute;    
+    right: 479px;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background-color: lightgray;
+    z-index: 2;
+
+    height: 1222px;
   }
 
   
