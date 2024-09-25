@@ -1,36 +1,20 @@
 .whole-page{
     width: 1200px;
-    /* height: 900px; */
-    /* display: grid;
-    grid-template-rows: 1fr 60px;  */
-
+    position: relative;
   }
   .grid-columns{
     display: grid;
     grid-template-columns: 50px 1fr 40px;
     margin-bottom: 120px;
   }
-  .left-column{
-    background-color: lightgray;
-
-    width: 50px;
-  }
   .middle-column{
     display: grid;
     grid-template-rows: 80px 1fr 400px;
   }
-  .right-column{
-    background-color: lightgray;
-    width: 40px;
-  }
   .bottom-bar{
-    /* position: absolute;
-    bottom: 0px;
-    left: 0px;
-    right: 0px; */
     background-color: rgb(184, 184, 184);
     height: 60px;
-    width: 1200px;
+    width: 1210px;
   }
   .top-bar{
     display: flex;
@@ -47,7 +31,7 @@
     background-color: aqua;
     position: relative;
   }
-  .gambiarra-1{
+  .left-bar-final{
     position: absolute;    
     left: 0;
     top: 0;
@@ -55,18 +39,19 @@
     width: 50px;
     background-color: lightgray;
     z-index: 2;
-
+    opacity: 0.3;
     height: 1222px;
   }
-  .gambiarra-2{
+  .right-bar-final{
     position: absolute;    
-    right: 479px;
+    right: -5px;
     top: 0;
     bottom: 0;
     width: 40px;
     background-color: lightgray;
     z-index: 2;
-
+    /* padding-left: 20px; */
+    opacity: 0.3;
     height: 1222px;
   }
 

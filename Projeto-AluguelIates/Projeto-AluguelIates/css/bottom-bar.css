@@ -12,8 +12,10 @@
     margin: 5px 0px 0px 30px;
    
 }
-.bottom-bar-box-left,
-.bottom-bar-box-right{
-    width: 40px;      
+.bottom-bar-box-left{
+    width: 50px;      
 }
-
+.bottom-bar-box-right{
+    width: 45px;
+    background-color: rgb(184, 184, 184);
+}
